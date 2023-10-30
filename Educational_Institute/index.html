@@ -13,7 +13,14 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
-    </head>
+   
+        <script>
+          function WhichButton(event) {
+            alert("You Have to Frist Login ")
+          }
+          </script>
+    
+      </head>
     <body>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
@@ -58,10 +65,29 @@
           <div class="Landing d-flex justify-content-center">
             <div class="text-center">
                 <h1>Welcome</h1>
-                <p>Our institute of excellence for excellence</p>
-                <a class="btn btn-primary rounded-pill main-btn" href="#">Get Start</a>
-                
+                <p onmouseover="style.color='blue'" onmouseout="style.color='black'">Our institute of excellence for excellence</p>
+                <a  onmousedown="WhichButton(event);" class="btn btn-primary rounded-pill main-btn" href="#">Get Start</a>
             </div>
+          </div>
+
+          <div class="featuesr text-center pt-4 pb-4">
+            <div class="container">
+             <div class="main_titel mt-5 mb-5">
+              <img class="image pb-2" src="image/institute.png" alt="institute" >
+              <h2>The Languages</h2>
+              <p>Our Language in Institute are </p>
+              <div class="main-title1 position-relative"></div>
+            </div>
+            <div class="raw">
+            <div class="col-md-6 col-lg-4">
+              <div class=feat>
+                <div class="icon-holder position-relative">
+                  <h>Arbic</h>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div> 
           </div>
 <script src="js/boostrap.bundle.min.js"></script>
 <script src="js/all.min.js"></script>

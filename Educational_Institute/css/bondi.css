@@ -4,6 +4,7 @@
 }
 body{
     font-family: "Roboto",sans-serif;
+    background-color:#f1f1fa;
 }
 .navbar{
     background-color: var(--dark-color);
@@ -12,6 +13,11 @@ body{
     background-color: absolute;
     width: 30px;
     height: 35px;
+  }
+  .image{
+    background-color: absolute;
+    width: 100px;
+    height: 110px;
   }
   .navbar .navbar-nav .nav-link.active,
   .navbar .navbar-nav .nav-link:focus,
@@ -28,8 +34,17 @@ color:var(--blue-color);
     border-color: wheat;
   }
   .Landing{
-    background-color:#eaeaf7;
+    background-color:#ededfa;
     min-height: calc(100vh -72px);
   }
  
-  
+.main-title1{
+contain:'' ;
+width:120px;
+height:2px;
+background-color:#0d0b62 ;
+position: absolute;
+bottom: -10px;
+left:100%;
+transform: translateX(-510%);
+  }
