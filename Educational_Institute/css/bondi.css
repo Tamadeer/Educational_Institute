@@ -2,7 +2,7 @@
     --dark-color: #b7cef0;
     --blue-color: #0f0ced;
     --secion-color:#8bc9f6;
-    --num-color:#d0e8fa;
+    --num-color:#0b30361a;
 }
 body{
     font-family: "Roboto",sans-serif;
@@ -51,18 +51,35 @@ left:100%;
 transform: translateX(-510%);
   }
 /*featuers */
-.featuesr .icon-holder{ 
+
+.featuesr .raw .feat {
+  padding-top: 60px;
+}
+.featuesr .raw .feat .number{
+  font-size:12rem;
+  color:var(--num-color);
+  top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 100px;
+
+}
+/* .featuesr .icon-holder{ 
   height: 200px;
 }
 .featuesr .icon-holder svg{
 left: 50%;
-transform: translateX(-50%);
+transform: translate(-50%);
 
 }
 .featuesr .icon-holder .number{
-  font-size: 12rem;
+  font-size:9rem;
   color:var(--num-color);
 }
 .featuesr .feat h4{
   color: var(--secion-color)
 }
+.featuesr .raw{
+  transform: translate(50px,40px);
+
+} */
